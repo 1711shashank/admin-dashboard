@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+}
+
+img{
+    border-radius: 50%;
+}
+
+
+/* || Left */
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: #1992D3;    
+}
+.left-body{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+.left-head{
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+}
+.left-body a{
+    margin: 1rem 0 0 2rem;
+    text-align: left;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+iconify-icon{
+    margin: 1rem;
+}
+
+
+/* || Right */
+
+.right{
+    width: 100%;
+    background-color: #E2E8F0;
+}
+
+.right-head{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.right-headUp{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+}
+.right-headUp input{
+    width: 55%;
+    border: none;
+    border-radius: 15px;
+    height: 2rem;
+    margin-right: 6rem;
+    background-color: #E2E8F0;
+
+}
+.right-headUp > * {
+    margin: 0.3rem 1rem 0 1rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+
+
+
+.right-headDown{
+    display: flex;
+    padding: 1rem;
+}
+
+
+
