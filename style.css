@@ -65,13 +65,13 @@ iconify-icon{
 }
 .right-headUp{
     display: flex;
-    margin: 1rem;
+    margin: 0.7rem;
     align-items: center;
 }
 .right-headUp input{
     width: 55%;
     border: none;
-    border-radius: 15px;
+    border-radius: 2rem;
     height: 2rem;
     margin-right: 6rem;
     background-color: #E2E8F0;
@@ -88,8 +88,36 @@ iconify-icon{
 
 .right-headDown{
     display: flex;
-    padding: 1rem;
+    margin: 0.7rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-headDown-left{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.right-headDown-left-text{
+    margin-left: 1.2rem;
 }
 
 
+.text-message{
+    font-size: 0.9rem;
+}
+.text-nameId{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
 
+.right-headDown-right button{
+    background-color: #1992D3;
+    border: none;
+    height:2.3rem;
+    width:5.5rem;
+    border-radius: 3rem;
+    color: white;
+    margin-right: 1.2rem;
+}
